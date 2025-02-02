@@ -1,0 +1,8 @@
+[package]
+name = "Jomfish"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+chess = "2.0"
+rand = "0.8"
