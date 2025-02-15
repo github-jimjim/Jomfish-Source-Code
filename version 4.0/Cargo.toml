@@ -1,0 +1,9 @@
+[package]
+name = "Jomfish"
+version = "0.4.0"
+authors = ["Jimmy Luong"]
+edition = "2018"
+
+[dependencies]
+log = "0.4"
+
