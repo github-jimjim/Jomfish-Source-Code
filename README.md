@@ -22,6 +22,13 @@ Here are the **older versions** of Jomfish that have been released with source c
   - Can be compiled and used in chess arenas of your choice.
   - Performance improvements compared to previous versions.
   - 2 Versions available: compact and none. The none is a little bit faster
+ 
+  - - **Version 4.0**: 
+  - Basic UCI support with default configurations.
+  - Focuses on performance without specialized tuning for threads or overhead.
+  - Can be compiled and used in chess arenas of your choice.
+  - Performance improvements compared to previous versions.
+  - It has a small improvement of about 150 elo from 3.0 and now it has **2200 elo**
 
 ## Collaboration
 
@@ -29,7 +36,8 @@ I would greatly appreciate any efforts to train an NNUE (Neural Network Unified 
 
 ## Usage
 
-- **Version 2.0** doesn't support any special UCI commands, only the basic ones without configuration options like Overhead or Threads. 
+- **Version 2.0** doesn't support any special UCI commands, only the basic ones without configuration options like Overhead or Threads.
+- **Version 4.0** support Overhead. 
 - Compile it and use it in any arena of your choice.
 
 ### Compilation Process
@@ -45,6 +53,15 @@ If you don't want to compile it yourself, you can go to the Jomfish 10 repositor
 While Jomfish 2.0 is not as strong as Stockfish 1 or 2, it has a significant improvement from the earlier Jomfish versions. The difference in Elo between Stockfish 1 (2800 Elo) and Stockfish 10 (3300 Elo) is relatively small (about 500 Elo). However, Jomfish 2.0 has made a substantial leap from Jomfish 1 (1000 Elo) to Jomfish 10 (3300 Elo).
 
 Jomfish 2.0 can easily defeat Pynfish 2, even though Pynfish 2 uses Stockfish 12 NNUE. However, Jomfish 2.0 has an approximate Elo of **1700** and sometimes makes errors, especially in winning positions (such as drawing through threefold repetition). Jomfish 3 improved on these weaknesses with a performance boost and additional UCI commands.
+
+## Performance of Jomfish 4.0
+
+| Engine          | Winrate % | Wins     | Looses   | Draws    |
+|-----------------|-----------|----------|----------|----------|
+| Jomfish 2       | 0%        | 0        | 3        | 1        |
+| Jomfish 3       | 25%       | 1        | 2        | 1        |
+| Jomfish 4       | 100%      | 4        | 0        | 0        |
+
 
 ## When to Expect New Versions
 
