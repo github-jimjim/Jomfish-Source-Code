@@ -23,7 +23,7 @@ Here are the **older versions** of Jomfish that have been released with source c
   - Performance improvements compared to previous versions.
   - 2 Versions available: compact and none. The none is a little bit faster
  
- - **Version 4.0**: 
+- **Version 4.0**: 
   - Basic UCI support with default configurations.
   - Focuses on performance without specialized tuning for threads or overhead.
   - Can be compiled and used in chess arenas of your choice.
