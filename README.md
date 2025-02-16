@@ -11,7 +11,7 @@ Jomfish is a Rust-based chess engine designed for high performance and adaptabil
 Here are the **older versions** of Jomfish that have been released with source code:
 
 - **Version 2.0**: The second version of Jomfish, which has only simple commands that are needed to work.
-- **Version 4.0**: Has a better evaluation and is slightly better than sunfish.
+- **Version 4.0**: Has a better evaluation and is slightly better than sunfish and Walleye
 
 **Note**: The latest version (Jomfish 10) is not included in this repository. Only the earlier versions are available.
 
