@@ -25,7 +25,7 @@ Here are the **older versions** of Jomfish that have been released with source c
  
 - **Version 4.0**: 
   - Basic UCI support with default configurations.
-  - Focuses on performance without specialized tuning for threads or overhead.
+  - Focuses on performance without specialized tuning for threads.
   - Can be compiled and used in chess arenas of your choice.
   - Performance improvements compared to previous versions.
   - It has a small improvement of about 150 elo from 3.0 and now it has **2200 elo**
@@ -62,10 +62,12 @@ Jomfish 2.0 can easily defeat Pynfish 2, even though Pynfish 2 uses Stockfish 12
 | Jomfish 3       | 25%       | 1        | 2        | 1        |
 | Jomfish 4       | 100%      | 4        | 0        | 0        |
 
+Jomfish 4.0 has a estimated Elo of **2000** with a boost of **150** Elo from the 3.0. It finally has Move Overhead and plays normal in the endgame unlike the 3.0 or 2.0 version. You may have noticed it but after that it is unlikely that I post the other versions. If you are lucky maybe I will post the 6.0 but never the other verisons.
+
 
 ## When to Expect New Versions
 
-I will try to release new versions when I have time, but it may take months. However, I am not planning to release the latest version (Jomfish 10) here, only the older versions. Stay tuned and have fun!
+You may have noticed it but after that it is unlikely that I post the other versions. If you are lucky maybe I will post the 6.0 but never the other verisons. I am planning not to post Jomfish until it reaches a NNUE.
 
 ## Pynfish and Jomfish Links
 
