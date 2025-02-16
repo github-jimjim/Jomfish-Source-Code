@@ -248,7 +248,6 @@ impl Searcher {
                 depth,
             );
 
-            // Breche ab, wenn die vorgegebene Bedenkzeit überschritten wurde
             if self.now.elapsed() > self.duration || score > MATE_LOWER {
                 break;
             }
