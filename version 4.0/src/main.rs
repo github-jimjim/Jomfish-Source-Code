@@ -15,6 +15,7 @@ fn read_line() -> String {
 fn main() {
     println!("id name Jomfish 4.0");
     println!("id author Jimmy Luong");
+	println!("option name move_overhead type spin default 50 min 0 max 5000");
     println!("uciok");
 
     let mut board_state = INITIAL_BOARD_STATE;
@@ -35,7 +36,7 @@ fn main() {
             "uci" => {
                 println!("id name Jomfish 4.0");
                 println!("id author Jimmy Luong");
-                println!("option name Move Overhead type spin default 50 min 0 max 5000");
+                println!("option name move_overhead type spin default 50 min 0 max 5000");
                 println!("uciok");
             }
             "isready" => println!("readyok"),
@@ -62,7 +63,7 @@ fn main() {
                         i += 1;
                     }
                 }
-                if option_name == "Move Overhead" {
+                if option_name == "move_overhead" {
                     if let Ok(ms) = option_value.parse::<u64>() {
                         move_overhead = Duration::from_millis(ms);
                         info!("Set Move Overhead to {} ms", ms);
