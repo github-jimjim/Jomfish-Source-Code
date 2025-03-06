@@ -13,8 +13,6 @@ Here are the **older versions** of Jomfish that have been released with source c
 - **Version 2.0**: The second version of Jomfish, which has only simple commands that are needed to work.
 - **Version 4.0**: Has a better evaluation and is slightly better than sunfish and Walleye
 
-**Note**: The latest version (Jomfish 10) is not included in this repository. Only the earlier versions are available.
-
 ## Features
 
 - **Version 2.0**: 
