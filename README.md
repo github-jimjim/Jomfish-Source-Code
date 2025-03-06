@@ -12,6 +12,7 @@ Here are the **older versions** of Jomfish that have been released with source c
 
 - **Version 2.0**: The second version of Jomfish, which has only simple commands that are needed to work.
 - **Version 4.0**: Has a better evaluation and is slightly better than sunfish and Walleye
+- **Version 10.0**: Newest Version
 
 ## Features
 
@@ -28,6 +29,10 @@ Here are the **older versions** of Jomfish that have been released with source c
   - Can be compiled and used in chess arenas of your choice.
   - Performance improvements compared to previous versions.
   - It has a small improvement of about 150 elo from 3.0 and now it has **2200 elo**
+
+- **Version 10.0**
+  - Read README.md for further Information.
+   
 
 ## Collaboration
 
